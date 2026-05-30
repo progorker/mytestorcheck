@@ -7,7 +7,6 @@
  * + License: GPL-2.0
  */
 
-\. ./setup-tables.sql
-\. ./setup-functions.sql
-\. ./setup-procedures.sql
-\. ./setup-api.sql
+\. ./tst/procedure_test_numbers.sql
+\. ./tst/procedure_test_strings.sql
+\. ./tst/procedure_test_others.sql

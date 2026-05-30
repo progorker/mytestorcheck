@@ -1,0 +1,24 @@
+/*
+ * Copyright (c) 2026 Dinh Thoai Tran <zinospetrel@sdf.org>
+ * All rights reserved.
+ *
+ * + Source URL: https://github.com/progorker/mytestorcheck/
+ *
+ * + License: GPL-2.0
+ */
+
+call mytestorproxy.api_testor_version( @g_token, @g_suite_id, @g_last_version );
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @g_src_dir, 'src_dir', false );
+
+set @v_name = 'test_numbers';
+set @v_data = '/tst/procedure_test_numbers.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
+set @v_name = 'test_strings';
+set @v_data = '/tst/procedure_test_strings.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
+set @v_name = 'test_others';
+set @v_data = '/tst/procedure_test_others.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
