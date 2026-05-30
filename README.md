@@ -1,2 +1,11 @@
-# mytestorcheck
-Check Testor's features using MySQL stored procedures &amp; functions
+```
+===========_____=======_============
+  _ __ _  |_   _|__ __| |_ ___ _ _ 
+ | '  \ || || |/ -_|_-<  _/ _ \ '_|
+ |_|_|_\_, ||_|\___/__/\__\___/_|  
+=======|__/=========================
+ [ myTestor ] Unit Testing Platform
+           ----- oOo -----
+Check Testor's features using MySQL
+====================================
+```
