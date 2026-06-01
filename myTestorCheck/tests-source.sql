@@ -59,3 +59,7 @@ set @v_name = 'test_others';
 set @v_data = '/tst/procedure_test_others.sql';
 call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
 
+set @v_name = 'test_loads';
+set @v_data = '/tst/procedure_test_loads.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
