@@ -12,3 +12,4 @@ set @g_testor_password = 'rzutomqahegpnyx';
 set @g_suite_code = 'mytestorcheck';
 set @g_src_dir = '/bioogr/works/myTestorCheck';
 set @g_last_version = 15;
+set @g_loads_max_cnt = 1000;

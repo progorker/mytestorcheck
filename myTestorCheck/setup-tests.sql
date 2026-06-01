@@ -10,3 +10,4 @@
 \. ./tst/procedure_test_numbers.sql
 \. ./tst/procedure_test_strings.sql
 \. ./tst/procedure_test_others.sql
+\. ./tst/procedure_test_loads.sql
