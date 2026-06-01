@@ -8,4 +8,28 @@
            ----- oOo -----
 Check Testor's features using MySQL
 ====================================
+
+
+-------|__/-------------------------
+          RUN TESTS
+------------------------------------
+
+$) cd __MYTESTORPROXY_DIR__
+
+$) nano config.php
+
+$)-- Change accounts settings
+
+$) php agent.php
+
+$) cd __MYTESTORCHECK_DIR__
+
+$) nano ./tests-config.sql
+
+$)-- Change accounts information
+
+$) mysql --user=mytestorcheck --password=kunqhtsadzmopeh mytestortested
+
+$) source ./tests.sql
+
 ```
