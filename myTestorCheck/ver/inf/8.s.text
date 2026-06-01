@@ -1,0 +1,99 @@
+
+*************************** 1. row ***************************
+   case: test_numbers
+   test: int.equals.1
+message: [int.equals.1] test (equals) is success. \nOperand: 10\nValue: 10\n
+*************************** 2. row ***************************
+   case: test_numbers
+   test: int.not_equals.1
+message: [int.not_equals.1] test (not_equals) is success. \nOperand: 10\nValue: 15\n
+*************************** 3. row ***************************
+   case: test_numbers
+   test: int.greater_than.1
+message: [int.greater_than.1] test (greater_than) is success. \nOperand: 18\nValue: 12\n
+*************************** 4. row ***************************
+   case: test_numbers
+   test: int.not_greater_than.1
+message: [int.not_greater_than.1] test (not_greater_than) is success. \nOperand: 12\nValue: 12\n
+*************************** 5. row ***************************
+   case: test_numbers
+   test: int.not_greater_than.2
+message: [int.not_greater_than.2] test (not_greater_than) is success. \nOperand: 8\nValue: 12\n
+*************************** 6. row ***************************
+   case: test_numbers
+   test: int.less_than.1
+message: [int.less_than.1] test (less_than) is success. \nOperand: 15\nValue: 21\n
+*************************** 7. row ***************************
+   case: test_numbers
+   test: int.not_less_than.1
+message: [int.not_less_than.1] test (not_less_than) is success. \nOperand: 15\nValue: 15\n
+*************************** 8. row ***************************
+   case: test_numbers
+   test: int.not_less_than.2
+message: [int.not_less_than.2] test (not_less_than) is success. \nOperand: 21\nValue: 15\n
+*************************** 9. row ***************************
+   case: test_numbers
+   test: dbl.equals.1
+message: [dbl.equals.1] test (equals) is success. \nOperand: 10\nValue: 10\n
+*************************** 10. row ***************************
+   case: test_numbers
+   test: dbl.not_equals.1
+message: [dbl.not_equals.1] test (not_equals) is success. \nOperand: 10\nValue: 15\n
+*************************** 11. row ***************************
+   case: test_numbers
+   test: dbl.greater_than.1
+message: [dbl.greater_than.1] test (greater_than) is success. \nOperand: 18\nValue: 13\n
+*************************** 12. row ***************************
+   case: test_numbers
+   test: dbl.not_greater_than.1
+message: [dbl.not_greater_than.1] test (not_greater_than) is success. \nOperand: 13\nValue: 13\n
+*************************** 13. row ***************************
+   case: test_numbers
+   test: dbl.not_greater_than.2
+message: [dbl.not_greater_than.2] test (not_greater_than) is success. \nOperand: 8\nValue: 12\n
+*************************** 14. row ***************************
+   case: test_numbers
+   test: dbl.less_than.1
+message: [dbl.less_than.1] test (less_than) is success. \nOperand: 16\nValue: 21\n
+*************************** 15. row ***************************
+   case: test_numbers
+   test: dbl.not_less_than.1
+message: [dbl.not_less_than.1] test (not_less_than) is success. \nOperand: 15\nValue: 15\n
+*************************** 16. row ***************************
+   case: test_numbers
+   test: dbl.not_less_than.2
+message: [dbl.not_less_than.2] test (not_less_than) is success. \nOperand: 22\nValue: 15\n
+*************************** 17. row ***************************
+   case: test_strings
+   test: str.same.1
+message: [str.same.1] test (same) is success. \nOperand: Hello world!\nValue: Hello world!\n
+*************************** 18. row ***************************
+   case: test_strings
+   test: str.same.2
+message: [str.same.2] test (same) is success. \nOperand: Hello world!\nValue: hello World!\n
+*************************** 19. row ***************************
+   case: test_strings
+   test: str.not_same.2
+message: [str.not_same.2] test (not_same) is success. \nOperand: Hello world!\nValue: Hello world! I am here.\n
+*************************** 20. row ***************************
+   case: test_strings
+   test: str.contains.1
+message: [str.contains.1] test (contains) is success. \nOperand: Hello world!\nValue: world\n
+
+*************************** 1. row ***************************
+   case: test_strings
+   test: str.not_contains.1
+message: [str.not_contains.1] test (not_contains) is success. \nOperand: Hello world!\nValue: woNrld\n
+*************************** 2. row ***************************
+   case: test_others
+   test: int.equals.1
+message: [int.equals.1] test (true) is success. \nCondition: 1\nExpected: true\n
+*************************** 3. row ***************************
+   case: test_others
+   test: int.not_equals.1
+message: [int.not_equals.1] test (not_true) is success. \nCondition: 0\nExpected: false\n
+*************************** 4. row ***************************
+   case: test_others
+   test: int.equals.2
+message: [int.equals.2] test is success
+
