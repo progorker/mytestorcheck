@@ -11,6 +11,6 @@ set @g_testor_username = 'mytestor';
 set @g_testor_password = 'rzutomqahegpnyx';
 set @g_suite_code = 'mytestorcheck';
 set @g_src_dir = '/bioogr/psk-19/myTestorCheck';
-set @g_last_version = 1;
+set @g_last_version = 9;
 -- set @g_loads_max_cnt = 1000;
 set @g_loads_max_cnt = 10;
