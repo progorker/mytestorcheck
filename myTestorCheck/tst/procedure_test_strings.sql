@@ -48,5 +48,8 @@ begin
   set v_str_b = 'woNrld';
   call mytestorproxy.api_testor_not_contains( p_token, v_test_id, v_suite_id, v_case_id, 'str.not_contains.1', v_str_a, v_str_b );
 
+  set v_str_a = '{\"n\": 2}';
+  set v_str_b = '{\"n\": 2}';
+  call mytestorproxy.api_testor_same( p_token, v_test_id, v_suite_id, v_case_id, 'str.same.3', v_str_a, v_str_b );
 end;$$
 delimiter ;
