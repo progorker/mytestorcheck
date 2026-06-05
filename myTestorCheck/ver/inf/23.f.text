@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_cells
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Table 'temp_vars' already exists\n
+

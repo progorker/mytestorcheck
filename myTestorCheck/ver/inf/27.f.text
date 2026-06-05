@@ -1,0 +1,10 @@
+
+*************************** 1. row ***************************
+   case: test_cells
+   test: str.same.1
+message: [str.same.1] test (cell_same) is failed. \nOperand: NULL\nValue: Hello world!\n
+*************************** 2. row ***************************
+   case: test_cells
+   test: num.equals.1
+message: [num.equals.1] test (cell_equals) is failed. \nOperand: NULL\nValue: 20.5\n
+

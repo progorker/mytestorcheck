@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_cells
+   test: exception
+message: [exception] test (error) is failed. \nMessage: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'create temporary table mytestortested.`temp_vars` (`id` bigint not null auto_inc' at line 1\n
+

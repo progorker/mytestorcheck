@@ -1,0 +1,20 @@
+*************************** 1. row ***************************
+   case: test_cells
+   test: str.same.1
+message: NULL
+*************************** 2. row ***************************
+   case: test_cells
+   test: num.equals.1
+message: NULL
+*************************** 1. row ***************************
+      version: 13
+       status: RED
+         code: mytestorcheck
+           id: 1
+success_count: 105
+ failed_count: 2
+   test_count: 107
+   case_count: 5
+*************************** 1. row ***************************
+                        To re-print: : $) call api_testor_result('_token_', 1);
+To get source file of [a] test case: : $) call api_testor_source('_token_', 1, 'a');

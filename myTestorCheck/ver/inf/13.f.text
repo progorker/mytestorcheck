@@ -1,0 +1,10 @@
+
+*************************** 1. row ***************************
+   case: test_cells
+   test: str.same.1
+message: NULL
+*************************** 2. row ***************************
+   case: test_cells
+   test: num.equals.1
+message: NULL
+

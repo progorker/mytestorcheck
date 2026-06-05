@@ -1,0 +1,20 @@
+*************************** 1. row ***************************
+   case: test_cells
+   test: str.same.1
+message: [str.same.1] test (cell_same) is failed. \nOperand: NULL\nValue: Hello world!\n
+*************************** 2. row ***************************
+   case: test_cells
+   test: num.equals.1
+message: [num.equals.1] test (cell_equals) is failed. \nOperand: NULL\nValue: 20.5\n
+*************************** 1. row ***************************
+      version: 27
+       status: RED
+         code: mytestorcheck
+           id: 1
+success_count: 105
+ failed_count: 2
+   test_count: 107
+   case_count: 5
+*************************** 1. row ***************************
+                        To re-print: : $) call api_testor_result('_token_', 1);
+To get source file of [a] test case: : $) call api_testor_source('_token_', 1, 'a');
