@@ -16,18 +16,32 @@ Check Testor's features using MySQL
 
 
 -------|__/-------------------------
+        RUNNING BRIDGE
+------------------------------------
+
+$) export MYTESTORPROXY_DIR=""
+$) nano $MYTESTORPROXY_DIR/config.php
+----> Modify myTestor account, myTestorProxy account and other settings
+$) cd $MYTESTORPROXY_DIR && php ./agent.php
+
+
+-------|__/-------------------------
+    Controlling source versions
+------------------------------------
+
+$) export MYTESTORCHECK_DIR=""
+$) nano $MYTESTORCHECK_DIR/svc-cfg.php
+---> Modify myTestorProxy account and other settings
+$) cd $MYTESTORCHECK_DIR && php ./svc.php
+
+
+-------|__/-------------------------
           RUN TESTS
 ------------------------------------
 
-$) cd __MYTESTORPROXY_DIR__
+$) export MYTESTORCHECK_DIR=""
 
-$) nano config.php
-
-$)-- Change accounts settings
-
-$) php agent.php
-
-$) cd __MYTESTORCHECK_DIR__
+$) cd $MYTESTORCHECK_DIR
 
 $) nano ./tests-config.sql
 
@@ -36,5 +50,6 @@ $)-- Change accounts information
 $) mysql --user=mytestorcheck --password=kunqhtsadzmopeh mytestortested
 
 $) source ./tests.sql
+
 
 ```
